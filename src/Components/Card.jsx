@@ -1,9 +1,9 @@
 /* eslint-disable react/prop-types */
 const ProductCard = ({name, price, stock, gadgetType, img}) => {
     return ( 
-        <article className="p-4">
+        <article className="p-4 w-1/3">
          <div>
-            <img src={img} alt="" />
+            <img src={img} alt="productitem" />
          </div>
          <div>
             <h1 className="font-bold">{name}</h1>  
