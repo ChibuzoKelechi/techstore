@@ -7,16 +7,17 @@ const StorePage = () => {
      return <ProductCard
                 key={gadget.id}
                 name={gadget.item}
-                price={gadget.price}
-                stock={gadget.stock}
+                // price={gadget.price}
+                // stock={gadget.stock}
                 gadgetType={gadget.category}
-                img={gadget.img}
+                // img={gadget.img}
+                {...gadget}
              />
     })
 
     return ( 
         <section>
-           <article className="flex flex-wrap">
+           <article className="flex flex-wrap justify-evenly">
              {productItems}
            </article>
         </section>

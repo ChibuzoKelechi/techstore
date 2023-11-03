@@ -11,7 +11,7 @@ export default [
     {
         id: 1,
         item: 'M3 MacBook Air',
-        category: 'Laptop',
+        category: 'MacBook',
         img:'./public/Images/Macbook.png',
         price:'1,125,000',
         stock: 3,
@@ -19,9 +19,9 @@ export default [
       },
       {
         id: 2,
-        item: 'HP Eitebook 1040',
+        item: 'HP Elitebook 840',
         category: 'Laptop',
-        img:'',
+        img:'./public/Images/hpelitebook.jpg',
         price:'225,000',
         stock: 13,
         spec: 'Intel Core i5, with Keyboard light'
@@ -30,7 +30,7 @@ export default [
         id: 3,
         item: 'Dell XPS 13',
         category: 'Ultrabook',
-        img:'',
+        img:'public/Images/xps13.jpg',
         price:'925,000',
         stock: 3,
         spec: ' 13th gen Intel Evo core i7 with Touchscreen'
