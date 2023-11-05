@@ -14,6 +14,7 @@ const StorePage = () => {
 
     return ( 
         <section>
+         <article></article>
            <article className="flex flex-wrap justify-evenly">
              {productItems}
            </article>
