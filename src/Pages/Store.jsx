@@ -7,10 +7,7 @@ const StorePage = () => {
      return <ProductCard
                 key={gadget.id}
                 name={gadget.item}
-                // price={gadget.price}
-                // stock={gadget.stock}
                 gadgetType={gadget.category}
-                // img={gadget.img}
                 {...gadget}
              />
     })

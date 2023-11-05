@@ -5,7 +5,7 @@ export default [
       category: 'Laptop',
       img:'./public/Images/del-latitude7520.jpeg',
       price:'325,000',
-      stock: 7,
+      stock: 17,
       spec: 'Intel core i7 11th gen, NVIDIA RTX GPU'
     },
     {
@@ -32,7 +32,7 @@ export default [
         category: 'Ultrabook',
         img:'public/Images/xps13.jpg',
         price:'925,000',
-        stock: 3,
+        stock: 7,
         spec: ' 13th gen Intel Evo core i7 with Touchscreen'
       }
 
